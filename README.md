@@ -15,10 +15,8 @@ Build a series of scatter plots to showcase the following relationships:
 
 Run linear regression on each relationship while comparing the Northern Hemisphere and the Southern Hemisphere
 
-**Analysis**
-
 * At least 500 cities were randomly selected based on latitude and longitude using 
-[citipy python library]((https://pypi.python.org/pypi/citipy)
+[citipy python library](https://pypi.python.org/pypi/citipy)
 * Weather check was performed on each of the cities using a series of successive API calls to
 [OpenWeatherMap API](https://openweathermap.org/api)
 
@@ -28,9 +26,7 @@ Run linear regression on each relationship while comparing the Northern Hemisphe
 **Objective**
 
 * Create a heat map that displays the humidity for every city from the part I - WeatherPy
-* Filter data to find cities with ideal weather conditions
-         * max temperature lower than 80 degrees but higher than 70
-         * wind speed less than 10 mph
-         * zero cloudiness
+* Filter data to find cities with ideal weather conditions: max temperature lower than 80 degrees but higher than 70, 
+wind speed less than 10 mph and zero cloudiness
 * Use Google Places API to find the first hotel for each city located within 5000 meters.
 * Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City and Country.
