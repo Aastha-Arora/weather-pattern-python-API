@@ -13,9 +13,9 @@ Build a series of scatter plots to showcase the following relationships:
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-Run linear regression on each relationship while comparing the Northern Hemisphere and the Southern Hemisphere
+Run `linear regression` on each relationship while comparing the Northern Hemisphere and the Southern Hemisphere
 
-* At least 500 cities were randomly selected based on latitude and longitude using 
+* Cities were randomly selected based on latitude and longitude using 
 [citipy python library](https://pypi.python.org/pypi/citipy)
 * Weather check was performed on each of the cities using a series of successive API calls to
 [OpenWeatherMap API](https://openweathermap.org/api)
