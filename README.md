@@ -18,9 +18,9 @@ Run `linear regression` on each relationship while comparing the Northern Hemisp
 * Random latitude and longitude coordinates were generated and saved to a list. Nearest city name from the coordinates 
 was found using the [citipy python library](https://pypi.python.org/pypi/citipy)
 * Weather check was performed on each of the cities using a series of successive API calls to
-[OpenWeatherMap API](https://openweathermap.org/api) to get JSON data
+`OpenWeatherMap API` to get JSON data
 * Data was loaded in a pandas dataframe and exported to a CSV file
-* Plots were made using matplotlib
+* Plots were made using `matplotlib`
 
 ![](https://github.com/Aastha-Arora/PythonAPI-challenge/blob/master/output_data/Fig1_Latitude%20vs.%20Max%20Temperature.png)
 ![](https://github.com/Aastha-Arora/PythonAPI-challenge/blob/master/output_data/Fig2_Latitude%20vs.%20Humidity.png)
@@ -35,7 +35,7 @@ was found using the [citipy python library](https://pypi.python.org/pypi/citipy)
 * Create a heat map that displays the humidity for every city from the part I - WeatherPy
 * Filter data to find cities with ideal weather conditions: max temperature lower than 80 degrees but higher than 70, 
 wind speed less than 10 mph and zero cloudiness
-* Use Google Places API to find the first hotel for each city located within 5000 meters.
+* Use `Google Places API` to find the first hotel for each city located within 5000 meters.
 * Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City and Country.
 
 ![](https://github.com/Aastha-Arora/PythonAPI-challenge/blob/master/output_data/Humidity_Heatmap.png)
